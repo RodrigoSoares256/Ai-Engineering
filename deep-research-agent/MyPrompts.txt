@@ -1,0 +1,20 @@
+I want to build a simple Agent with pydantic, use the docs.md from the folder
+for info
+the Agent should answer in a short way.
+The AI model is gtp-5 mini from OpenAI.
+i want to use Gradio as the Frontend
+Create all the files that i need, also the .env and a readme with easy to
+follow steps.
+
+Expand the existing agent into a "Deep research agent" that can take either a simple question or a
+ticker (Ex.: NVDA) and produce a structured, detailed report based on multi step web research using
+DuckDuckGo.
+High level behaviour:
+Intent & entity detection
+Detect whether the input is a ticker or a general query.
+If ticker: resolve to company name and context (Ex.: NVDA = NVIDIA, semiconductor, GPU, AI)
+Initial discovery search 
+Run one DuckDuckGo search for the input
+From the results/snippets generate 3-4 reasearch angles (keywords) that are relevant for the overlapping
+Examples for a stock "Swot Analysis" "Last 12 months stock performance", "Competition and marketing positioning",
+"Last quarterly results and forward guidance".
