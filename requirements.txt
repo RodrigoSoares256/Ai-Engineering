@@ -1,0 +1,4 @@
+pydantic-ai
+gradio
+python-dotenv
+ddgs

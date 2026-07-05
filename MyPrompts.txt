@@ -1,0 +1,7 @@
+I want to build a simple Agent with pydantic, use the docs.md from the folder
+for info
+the Agent should answer in a short way.
+The AI model is gtp-5 mini from OpenAI.
+i want to use Gradio as the Frontend
+Create all the files that i need, also the .env and a readme with easy to
+follow steps.
